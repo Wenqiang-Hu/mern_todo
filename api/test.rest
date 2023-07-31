@@ -1,0 +1,19 @@
+GET http://localhost:3002/todo
+
+###
+
+POST http://localhost:3002/todo/new
+Content-Type: application/json
+
+{
+    "text": "get the f"
+}
+
+###
+
+PUT http://localhost:3002/todo/complete/64c83eae562192fb6549770e
+
+
+###
+
+DELETE http://localhost:3002/todo/delete/64c83ac7562192fb65497707
