@@ -6,7 +6,7 @@ POST http://localhost:3002/todo/new
 Content-Type: application/json
 
 {
-    "text": "get the f"
+    "text": "get the fss"
 }
 
 ###
